@@ -1,1 +1,14 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import "components";
+@import "layout";
+
+.page-container {
+  max-width: 1174px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 912px) {
+  .page-container {
+    width: 100%;
+  }
+}

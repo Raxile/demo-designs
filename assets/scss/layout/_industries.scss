@@ -1,0 +1,28 @@
+.banner-container {
+  background-color: black;
+  .banner-left {
+    padding: 50px 0px;
+    .page-title {
+      color: #a6aaae;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .banner-title {
+      color: white;
+      font-size: 42px;
+      font-weight: 700;
+      .gradient-text {
+        background: linear-gradient(to right, #01dbda, #4384ff);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+  .banner-right {
+    .banner-image-container {
+      aspect-ratio: 1/1;
+      max-width: 420px;
+    }
+  }
+}
